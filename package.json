@@ -1,0 +1,21 @@
+{
+  "name": "pacman-game",
+  "version": "1.0.0",
+  "description": "A simplified version of the classic PAC-MAN game",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "phaser": "^3.55.2"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "puppeteer": "^10.1.0",
+    "eslint": "^7.31.0",
+    "prettier": "^2.3.2"
+  }
+}
